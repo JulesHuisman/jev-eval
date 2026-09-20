@@ -1,0 +1,27 @@
+[project]
+name = "jev-eval"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JulesHuisman", email = "jules.huisman@quantile.nl" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "deepeval>=4.2.3",
+    "langchain>=1.4.2",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.2",
+    "langchain-text-splitters>=1.1.2",
+    "langchain-typesafe>=0.0.1a2",
+    "pypdf>=6.19.0",
+    "tiktoken>=0.14.0",
+]
+
+[project.scripts]
+jev-eval = "jev_eval:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"

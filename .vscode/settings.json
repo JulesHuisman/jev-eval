@@ -1,0 +1,24 @@
+{
+  "python.terminal.useEnvFile": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.venv": true,
+    "**/.ruff_cache": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.python-version": true,
+    "**/.deepeval": true,
+  },
+}
